@@ -40,6 +40,11 @@ public class CekNomorFrame extends javax.swing.JFrame {
 
         jLabel1.setText("Masukkan Angka");
 
+        jTextField1.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                jTextField1FocusGained(evt);
+            }
+        });
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -57,8 +62,6 @@ public class CekNomorFrame extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-
-        jLabel2.setText("jLabel2");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -105,16 +108,20 @@ public class CekNomorFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-      try {
-            int angka = Integer.parseInt(jTextField1.getText());
-            if (angka % 2 == 0) {
-                jLabel2.setText("Angka " + angka + " adalah Genap");
-            } else {
-                jLabel2.setText("Angka " + angka + " adalah Ganjil");
-            }
-        } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(this, "Harap masukkan angka yang valid.", "Error", JOptionPane.ERROR_MESSAGE);
-        }  
+        try {
+        int angka = Integer.parseInt(jTextField1.getText());
+        String hasil;
+        
+        if (angka % 2 == 0) {
+            hasil = "Angka " + angka + " adalah Genap";
+        } else {
+            hasil = "Angka " + angka + " adalah Ganjil";
+        }
+        JOptionPane.showMessageDialog(this, hasil, "Hasil", JOptionPane.INFORMATION_MESSAGE);
+    } catch (NumberFormatException e) {
+        // Menampilkan pesan error menggunakan JOptionPane
+        JOptionPane.showMessageDialog(this, "Harap masukkan angka yang valid.", "Error", JOptionPane.ERROR_MESSAGE);
+    }  
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
@@ -127,6 +134,10 @@ public class CekNomorFrame extends javax.swing.JFrame {
             evt.consume();
         }    
     }//GEN-LAST:event_jTextField1KeyTyped
+
+    private void jTextField1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1FocusGained
+         jTextField1.setText("");
+    }//GEN-LAST:event_jTextField1FocusGained
 
     /**
      * @param args the command line arguments
