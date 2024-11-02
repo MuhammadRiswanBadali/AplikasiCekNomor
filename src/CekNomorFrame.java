@@ -117,6 +117,13 @@ public class CekNomorFrame extends javax.swing.JFrame {
         } else {
             hasil = "Angka " + angka + " adalah Ganjil";
         }
+        
+         if (isPrime(angka)) {
+                hasil += "\nAngka " + angka + " adalah Bilangan Prima";
+            } else {
+                hasil += "\nAngka " + angka + " bukan Bilangan Prima";
+            }
+        
         JOptionPane.showMessageDialog(this, hasil, "Hasil", JOptionPane.INFORMATION_MESSAGE);
     } catch (NumberFormatException e) {
         // Menampilkan pesan error menggunakan JOptionPane
@@ -124,6 +131,16 @@ public class CekNomorFrame extends javax.swing.JFrame {
     }  
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private boolean isPrime(int number) {
+        if (number <= 1) return false; // 0 dan 1 bukan bilangan prima
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false; // Jika ada pembagi, bukan bilangan prima
+            }
+        }
+        return true; // Jika tidak ada pembagi, adalah bilangan prima
+    }
+    
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
