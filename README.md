@@ -19,7 +19,7 @@ Aplikasi Cek Nomor Genap/Ganjil<br>
     - Implementasikan FocusListener untuk membersihkan JTextField saat mendapatkan fokus.<br>
 
 
-# FITUR APLIKASI
+# FITUR APLIKASI YANG DIBUAT
 - Menampilkan pesan apakah angka yang dimasukkan berupa bilangan ganjil atau genap saat menekan tombol cek validasi<br>
 - Menampilkan pesan apakah angka yang dimasukkan berupa bilangan prima atau bukan saat menekan tombol cek validasi<br>
 - Untuk kolom inputan hanya dapat menerima numerik<br>
