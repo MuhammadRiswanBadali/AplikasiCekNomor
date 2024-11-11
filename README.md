@@ -3,6 +3,10 @@ NAMA  : Muhammad Riswan Badali<br>
 NPM   : 2210010029<br>
 Kelas : REG PAGI 5B BJB<br>
 
+# FITUR APLIKASI
+-
+Menunjukan apakah angka yang dimasukkan berupa bilangan ganjil atau genap<br>
+
 # TAMPILAN APLIKASI YANG DIBUAT
 
 <img width="365" alt="aplikasi cek nomor " src="https://github.com/user-attachments/assets/c11fdb44-9180-4886-833d-67dfecec1c8e"><br>
