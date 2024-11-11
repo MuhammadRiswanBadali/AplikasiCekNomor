@@ -4,8 +4,7 @@ NPM   : 2210010029<br>
 Kelas : REG PAGI 5B BJB<br>
 
 # FITUR APLIKASI
--
-Menunjukan apakah angka yang dimasukkan berupa bilangan ganjil atau genap<br>
+- Menunjukan apakah angka yang dimasukkan berupa bilangan ganjil atau genap<br>
 
 # TAMPILAN APLIKASI YANG DIBUAT
 
