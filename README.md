@@ -31,8 +31,8 @@ Aplikasi Cek Nomor Genap/Ganjil<br>
 <img width="365" alt="aplikasi cek nomor " src="https://github.com/user-attachments/assets/c11fdb44-9180-4886-833d-67dfecec1c8e"><br>
 2. Tampilan ketika memasukkan angka 4 pada kolom inputan dan setelah itu menekan button cek validasi<br> 
 <img width="364" alt="aplikasi cek nomor hasil" src="https://github.com/user-attachments/assets/e5006744-d0c5-4773-bf6a-4246564ed6d6"><br>
-3. Tampilan ketika memasukkan angka 2 pada kolom inputan dan setelah itu menekan button cek validasi<br>
-<img width="368" alt="aplikasi cek nomor hasil2" src="https://github.com/user-attachments/assets/ab0f9d3d-57b9-4f3d-bdb5-8b74d7cc23ae"><br>
+3. Tampilan ketika memasukkan angka 3 pada kolom inputan dan setelah itu menekan button cek validasi<br>
+<img width="370" alt="aplikasi cek nomor hasil2" src="https://github.com/user-attachments/assets/02938e45-99e8-49a4-b41e-7f2463ff8e4a"><br>
 4. Tampilan ketika memasukkan angka yang tidak valid atau kosong pada kolom inputan dan setelah itu menekan button cek validasi<br>
 <img width="369" alt="aplikasi cek nomor hasil3" src="https://github.com/user-attachments/assets/5fe9773f-5dfb-4480-9716-b144711a1c3f"><br>
 <img width="367" alt="aplikasi cek nomor hasil4" src="https://github.com/user-attachments/assets/e2851f5c-1664-4e33-98a0-bdb71964f1d9"><br>
