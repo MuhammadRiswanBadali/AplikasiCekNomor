@@ -22,4 +22,8 @@ Kelas : REG PAGI 5B BJB<br>
 <img width="367" alt="aplikasi cek nomor hasil4" src="https://github.com/user-attachments/assets/e2851f5c-1664-4e33-98a0-bdb71964f1d9"><br>
 
 
-# KETERANGAN PROJEK
+# DETAIL TUGAS YANG DIBERIKAN
+Aplikasi Cek Nomor Genap/Ganjil<br>
+1. Deskripsi Program :<br>
+'-' GUI terdiri dari JTextField untuk input angka dan tombol Cek<br>
+'-' Saat tombol ditekan, program akan memvalidasi input dan menampilkan hasilnya pada JLabel<br>
