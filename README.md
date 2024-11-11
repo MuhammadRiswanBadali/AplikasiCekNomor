@@ -4,11 +4,11 @@ NPM   : 2210010029<br>
 Kelas : REG PAGI 5B BJB<br>
 
 # FITUR APLIKASI
-- Dapat menunjukan apakah angka yang dimasukkan berupa bilangan ganjil atau genap<br>
-- Dapat menunjukan apakah angka yang dimasukkan berupa bilangan prima atau bukan<br>
+- Menampilkan apakah angka yang dimasukkan berupa bilangan ganjil atau genap<br>
+- Menampilkan apakah angka yang dimasukkan berupa bilangan prima atau bukan<br>
 - Untuk kolom inputan hanya dapat menerima numerik<br>
 - Menghapus inputan secara otomatis ketika kolom inputan diklik<br>
-- Menampilakn pesan error ketika kolom inputan kosong atau angka yang tidak valid
+- Menampilakn pesan error ketika kolom inputan kosong atau angka yang tidak valid<br>
 
 # TAMPILAN APLIKASI YANG DIBUAT
 
