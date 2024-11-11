@@ -25,8 +25,8 @@ Kelas : REG PAGI 5B BJB<br>
 # DETAIL TUGAS YANG DIBERIKAN
 Aplikasi Cek Nomor Genap/Ganjil<br>
 1. Deskripsi Program:<br>
-- GUI terdiri dari JTextField untuk input angka dan tombol Cek<br>
-- Saat tombol ditekan, program akan memvalidasi input dan menampilkan hasilnya pada JLabel<br>
+  - GUI terdiri dari JTextField untuk input angka dan tombol Cek<br>
+  - Saat tombol ditekan, program akan memvalidasi input dan menampilkan hasilnya pada JLabel<br>
 2. Komponen GUI: JFrame, JPanel, JLabel, JTextField, JButton<br>
 3. Logika Program: Kondisional (if-else), Validasi input<br>
 4. Events:<br>
