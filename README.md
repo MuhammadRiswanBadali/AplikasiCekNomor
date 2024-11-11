@@ -14,6 +14,6 @@ Kelas : REG PAGI 5B BJB<br>
 1. Tampilan awal aplikasi<br>
 <img width="365" alt="aplikasi cek nomor " src="https://github.com/user-attachments/assets/c11fdb44-9180-4886-833d-67dfecec1c8e"><br>
 2. Tampilan ketika memasukkan angka 4 pada kolom inputan dan menekan button cek validasi<br> 
-<img width="364" alt="aplikasi cek nomor hasil" src="https://github.com/user-attachments/assets/e5006744-d0c5-4773-bf6a-4246564ed6d6">
+<img width="364" alt="aplikasi cek nomor hasil" src="https://github.com/user-attachments/assets/e5006744-d0c5-4773-bf6a-4246564ed6d6"><br>
 
 # KETERANGAN PROJEK
