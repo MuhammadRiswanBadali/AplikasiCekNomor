@@ -20,11 +20,11 @@ Aplikasi Cek Nomor Genap/Ganjil<br>
 
 
 # FITUR PADA APLIKASI YANG DIBUAT
-- Menampilkan pesan apakah angka yang dimasukkan berupa bilangan ganjil atau genap saat menekan tombol cek validasi<br>
-- Menampilkan pesan apakah angka yang dimasukkan berupa bilangan prima atau bukan saat menekan tombol cek validasi<br>
+- Menampilkan pesan apakah angka yang dimasukkan berupa bilangan ganjil atau genap saat menekan button cek validasi<br>
+- Menampilkan pesan apakah angka yang dimasukkan berupa bilangan prima atau bukan saat menekan button cek validasi<br>
 - Untuk kolom inputan hanya dapat menerima numerik<br>
 - Menghapus inputan secara otomatis ketika kolom inputan diklik<br>
-- Menampilakn pesan error ketika kolom inputan kosong atau angka yang dimasukkan tidak valid saat menekan tombol cek validasi<br>
+- Menampilakn pesan error ketika kolom inputan kosong atau angka yang dimasukkan tidak valid saat menekan button cek validasi<br>
 
 # TAMPILAN APLIKASI YANG DIBUAT
 1. Tampilan awal aplikasi<br>
